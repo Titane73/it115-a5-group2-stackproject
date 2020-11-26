@@ -3,11 +3,14 @@
 ## How to download and excute mergeAppToMean.bash script?
 
 ### 1. Get the mergeAppToMean.bash from GitHub
-main branch link (not available yet) 
+#### Don't use this line of code until merge to the main branch:
+```bash
 sudo wget -O mergeAppToMean https://raw.githubusercontent.com/Titane73/it115-a5-group2-stackproject/main/mergeAppToMean.bash
-
-USE THIS COMMAND UNTIL MERGE TO THE MAIN BRANCH:
+```
+#### Use this code instead
+```bash
 sudo wget -O mergeAppToMean https://raw.githubusercontent.com/Titane73/it115-a5-group2-stackproject/mergeAppToMeanStack/mergeAppToMean.bash
+```
 
 ### 2. Change to execute mode
 sudo chmod +x mergeAppToMean
